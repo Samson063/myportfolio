@@ -5,7 +5,6 @@ import picture1 from './Assets/picture1.jpg'
 import main1 from './Assets/main1.jpg'
 import main2 from './Assets/main2.jpg'
 import main3 from './Assets/main3.jpg'
-import { useMediaQuery } from 'react-responsive'
 
 
  function App () {
@@ -123,3 +122,14 @@ const handleEmailMessage = () =>{
     )
   }
 export default App;
+
+
+// git add .
+// git commit --m "message"
+// git push origin main
+
+
+// To Pull
+
+// git pull origin main
+

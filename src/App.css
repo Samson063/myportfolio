@@ -251,12 +251,15 @@ button.submit-button{
  font-weight: bold;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-  .section3{
-    width: 100%;
-    height: 60vh;
-    border: 1px solid black;
-    font-family: 'poppins', sans-serif;
-    background-color: rgb(23, 23, 18);
-  }
+@media screen and(max-width:767px) {
+  *{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+.Header{
+  width: 100%;
+  font-family: 'poppins', sans-serif;
+  position: absolute;
+}
 }
