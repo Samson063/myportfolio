@@ -27,14 +27,14 @@ const [mHref, SetmHref] = useState('')
 const handleEmailMessage = () =>{
   SetmHref(`mailto:anthonysamson@gmail.com?subject=${subject} -${name}&body=${message}`);
 }
-
   return (
     <div className='App'>
 
       <div className='Header'>
         <nav>
           <div className='logo'>
-            <h1>Samson.</h1></div>
+            <h1>Samson.</h1>
+            </div>
           <ul className='ul-items'>
             <li>
             <a href='#'>Home</a>
@@ -52,24 +52,31 @@ const handleEmailMessage = () =>{
             <a href='#'>Blog</a>
             </li>
             <li>
-            <a href='#'>Contact</a>
-            </li>
-            <li>
-    <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m4.5 6.5h12"/><path d="m4.498 10.5h11.997"/><path d="m4.5 14.5h11.995"/></g></svg>
+            <a href='#'>Contact </a>
             </li>
              </ul>
         </nav>
-
       </div>
       <section className='main-section'>
+      <div className='secondnav'>
+      <div className='logo'>
+            <h1>Samson.</h1>
+            </div>
+            <ul className='menu-bar'>
+            <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m4.5 6.5h12"/><path d="m4.498 10.5h11.997"/><path d="m4.5 14.5h11.995"/></g></svg>
+            </ul>
+      </div>
         <div className='container'>
           <div className='texts'>
             <h1>I am</h1>
             <h1 className='anthony'>Anthony Samson</h1>
-            <p>Professional Front-End React js Developer with 6 months of experience</p>
-            <button className='text-button'>My Work</button>
+            <p>Professional Front-End React js Developer.</p>
+           <a href='https://docs.google.com/document/d/1nNQ50bbwRMRzDXbEKJR9G5hVjK20NN6mDXX2nGXnIQ0/edit#heading=h.4prkjmzco10w'> <button className='text-button'>Resume</button></a>
           </div>
           <div className='image'>
+            <img src={samson} alt=''/>
+          </div>
+          <div className='image2'>
             <img src={samson} alt=''/>
           </div>
         </div>
@@ -81,11 +88,13 @@ const handleEmailMessage = () =>{
           <div className='image-container'>
             <img src={picture1} alt=''></img>
           </div>
+          <div className='main-text-2'>
           <div className='text-2'>
             <p>Front-End Developer</p>
             <p>React js Developer</p>
             <p>Node Package Management NPM, GitHub repository</p>
             <p>Good Communication</p>
+          </div>
           </div>
         </div>
       </section>
