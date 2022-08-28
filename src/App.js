@@ -25,7 +25,7 @@ const [mHref, SetmHref] = useState('')
 
 
 const handleEmailMessage = () =>{
-  SetmHref(`mailto:anthonysamson@gmail.com?subject=${subject} -${name}&body=${message}`);
+  SetmHref(`mailto:furthermaths@gmail.com?subject=${subject} -${name}&body=${message}`);
 }
   return (
     <div className='App'>
