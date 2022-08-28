@@ -43,28 +43,43 @@ const handleEmailMessage = () =>{
             <a href='#'>About</a>
             </li>
             <li>
-            <a href='#'>Services</a>
+            <a href='https://twitter.com/anth_samson?t=QFoD8vPm_V258m2tLeBT9A&s=09'>Contact Me </a>
             </li>
             <li>
-            <a href='#'>Projects</a>
-            </li>
-            <li>
-            <a href='#'>Blog</a>
-            </li>
-            <li>
-            <a href='#'>Contact </a>
+            <a href='https://samson.hashnode.dev/'>Blog</a>
             </li>
              </ul>
         </nav>
+       <div className='menu-wrap'>
+        <input type='checkbox' className='toggler'/>
+        <div className='hamburger'><div></div></div>
+        <div className='menu'>
+          <div>
+            <div>
+            <ul>
+            <li>
+            <a href='#'>Home</a>
+            </li>
+            <li>
+            <a href='#'>About</a>
+            </li>
+            <li>
+            <a href='https://twitter.com/anth_samson?t=QFoD8vPm_V258m2tLeBT9A&s=09'>Contact Me </a>
+            </li>
+            <li>
+            <a href='https://samson.hashnode.dev/'>Blog</a>
+            </li>
+             </ul>
+            </div>
+          </div>
+        </div>
+       </div>
       </div>
       <section className='main-section'>
       <div className='secondnav'>
-      <div className='logo'>
+      <div className='logo2'>
             <h1>Samson.</h1>
             </div>
-            <ul className='menu-bar'>
-            <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m4.5 6.5h12"/><path d="m4.498 10.5h11.997"/><path d="m4.5 14.5h11.995"/></g></svg>
-            </ul>
       </div>
         <div className='container'>
           <div className='texts'>
@@ -90,9 +105,9 @@ const handleEmailMessage = () =>{
           </div>
           <div className='main-text-2'>
           <div className='text-2'>
-            <p>Front-End Developer</p>
-            <p>React js Developer</p>
-            <p>Node Package Management NPM, GitHub repository</p>
+            <p>Front end {'(React.js, CSS)'}</p>
+            <p>Node.js</p>
+            <p>Version Control System {'Github, Bitbucket, Gitlab'}</p>
             <p>Good Communication</p>
           </div>
           </div>
